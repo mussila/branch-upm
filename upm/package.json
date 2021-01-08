@@ -1,0 +1,15 @@
+{
+  "name": "com.mussila.branch-sdk",
+  "version": "0.6.6",
+  "displayName": "Mussila - Branch SDK",
+  "description": "Mussila - Branch SDK",
+  "unity": "2019.1",
+  "author": {
+    "name": "Snorri Siemsen",
+    "email": "snorri@mussila.com",
+    "url": "https://github.com/mussila/branch-sdk-upm"
+  },
+  "dependencies": {
+    "com.google.external-dependency-manager": "1.2.162"
+  }
+}
