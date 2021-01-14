@@ -197,7 +197,7 @@ public class Branch : MonoBehaviour {
      * How long before deeming a request as timed out
      */
     public static void setNetworkTimeout(int timeout) {
-        _setNetworkTimeout(timeout);
+        _setNetworkTimeoutBranchIO(timeout);
     }
 
 	public static void registerView(BranchUniversalObject universalObject) {
@@ -475,7 +475,7 @@ public class Branch : MonoBehaviour {
     private static extern void _setMaxRetries(int maxRetries);
     
     [DllImport ("__Internal")]
-    private static extern void _setNetworkTimeout(int timeout);
+    private static extern void _setNetworkTimeoutBranchIO(int timeout);
     
 	[DllImport ("__Internal")]
 	private static extern void _registerView(string universalObject);

@@ -419,7 +419,7 @@ void _setMaxRetries(int maxRetries) {
     [[Branch getInstance:_branchKey] setMaxRetries:maxRetries];
 }
 
-void _setNetworkTimeout(int timeout) {
+void _setNetworkTimeoutBranchIO(int timeout) {
     [[Branch getInstance:_branchKey] setNetworkTimeout:timeout];
 }
 
