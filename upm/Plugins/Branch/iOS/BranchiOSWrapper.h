@@ -43,7 +43,7 @@ extern "C" {
     void _setDebug();
     void _setRetryInterval(int retryInterval);
     void _setMaxRetries(int maxRetries);
-    void _setNetworkTimeout(int timeout);
+    void _setNetworkTimeoutBranchIO(int timeout);
     void _registerView(char *universalObjectJson);
     void _listOnSpotlight(char *universalObjectJson);
     void _accountForFacebookSDKPreventingAppLaunch();
