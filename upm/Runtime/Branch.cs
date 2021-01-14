@@ -607,7 +607,7 @@ public class Branch : MonoBehaviour {
         BranchAndroidWrapper.setMaxRetries(maxRetries);
     }
     
-    private static void _setNetworkTimeout(int timeout) {
+    private static void _setNetworkTimeoutBranchIO(int timeout) {
         BranchAndroidWrapper.setNetworkTimeout(timeout);
     }
     
@@ -745,7 +745,7 @@ public class Branch : MonoBehaviour {
     
     private static void _setMaxRetries(int maxRetries) { }
     
-    private static void _setNetworkTimeout(int timeout) { }
+    private static void _setNetworkTimeoutBranchIO(int timeout) { }
 
 	private static void _registerView(string universalObject) { }
 
