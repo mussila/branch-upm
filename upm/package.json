@@ -1,11 +1,11 @@
 {
   "name": "com.mussila.branch-sdk",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "displayName": "Mussila - Branch SDK",
   "description": "Mussila - Branch SDK",
   "unity": "2019.1",
   "author": {
-    "name": "Snorri Siemsen",
+    "name": "Mussila",
     "email": "snorri@mussila.com",
     "url": "https://github.com/mussila/branch-sdk-upm"
   },

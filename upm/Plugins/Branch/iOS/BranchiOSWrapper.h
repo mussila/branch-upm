@@ -21,10 +21,7 @@ extern "C" {
 
     #pragma mark - InitSession methods
 
-    void _initSession();
-    void _initSessionAsReferrable(BOOL isReferrable);
     void _initSessionWithCallback(char *callbackId);
-    void _initSessionAsReferrableWithCallback(BOOL isReferrable, char *callbackId);
     void _initSessionWithUniversalObjectCallback(char *callbackId);
 
     #pragma mark - Session Item methods
@@ -41,13 +38,16 @@ extern "C" {
     # pragma mark - Configuration methods
 
     void _setDebug();
+    void _enableLogging();
     void _setRetryInterval(int retryInterval);
     void _setMaxRetries(int maxRetries);
-    void _setNetworkTimeoutBranchIO(int timeout);
+    void _setNetworkTimeout(int timeout);
     void _registerView(char *universalObjectJson);
     void _listOnSpotlight(char *universalObjectJson);
     void _accountForFacebookSDKPreventingAppLaunch();
     void _setRequestMetadata(char *key, char *value);
+    void _addFacebookPartnerParameter(char *name, char *value);
+    void _clearPartnerParameters();
     void _setTrackingDisabled(BOOL value);
     void _delayInitToCheckForSearchAds();
     
