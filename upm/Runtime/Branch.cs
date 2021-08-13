@@ -415,6 +415,7 @@ public class Branch : MonoBehaviour {
 		else {
 			_setBranchKey(BranchData.Instance.liveBranchKey, sdkVersion);
 		}
+		_enableLogging();
     }
 
 	void OnApplicationPause(bool pauseStatus) {
