@@ -292,6 +292,10 @@ public class BranchUnityWrapper {
         Branch.getInstance().disableTracking(value);
     }
 
+    public static void disableDeviceIDFetch(boolean value) {
+        Branch.getInstance().disableDeviceIDFetch(value);
+    }
+    
     /**
      * User Action methods
      */
